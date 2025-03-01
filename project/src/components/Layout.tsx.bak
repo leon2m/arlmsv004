@@ -1,0 +1,56 @@
+// Bu dosya, eski Layout.tsx'in yedeğidir
+// Modüler yapıya geçiş yapılmıştır, bu dosya sadece referans için saklanmaktadır
+
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation, Link } from 'react-router-dom';
+import { useAuth } from '@/hooks/useAuth';
+import { 
+  Home,
+  LayoutDashboard,
+  BookOpen,
+  FileText,
+  FileQuestion,
+  ScrollText,
+  Calendar,
+  MessageSquare,
+  FolderOpen,
+  Users,
+  Library,
+  Microscope,
+  MonitorPlay,
+  Headphones,
+  Rocket,
+  UserPlus,
+  BarChart,
+  Code2,
+  FileSpreadsheet,
+  Share2,
+  Globe2,
+  Palette,
+  Wrench,
+  Database,
+  Lightbulb,
+  Network,
+  ChevronRight,
+  Menu,
+  Bell,
+  ChevronDown,
+  ChevronLeft,
+  LogOut,
+  Settings,
+  Award,
+  Briefcase,
+  GraduationCap,
+  Target,
+  User,
+  LifeBuoy,
+  Mail,
+  AlertCircle,
+  FileCheck,
+  Search,
+  CheckSquare
+} from 'lucide-react';
+import { SectionCard } from '@/components/Settings/SectionCard';
+
+// NOT: Bu dosya çok uzun olduğu için burada sadece dosya başlangıcı kaydedilmiştir.
+// Tam içerik için orijinal Layout.tsx dosyasına bakınız. 

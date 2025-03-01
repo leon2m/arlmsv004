@@ -1,0 +1,148 @@
+/* Remix Icon için gerekli stil */
+:where([class^="ri-"])::before { content: "\f3c2"; }
+
+/* Gradient arka plan */
+.gradient-bg {
+  background: linear-gradient(135deg, #6366f1 0%, #a78bfa 100%);
+}
+
+/* Animasyonlar */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-out;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Hover efektleri */
+.hover-trigger:hover .hover-target {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Tüm etkileşimli elementlere yumuşak geçişler ekle */
+button, input, a {
+  transition: all 0.3s ease !important;
+}
+
+/* Tüm etkileşimli elementlere hover efektleri ekle */
+button:hover, input:hover {
+  transform: translateY(-2px);
+}
+
+/* Önemli elementlere nabız animasyonu ekle */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Input grup stilleri */
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem 2.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group label {
+  position: absolute;
+  left: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label {
+  top: 0;
+  left: 0.75rem;
+  font-size: 0.75rem;
+  padding: 0 0.25rem;
+  background: white;
+  color: #6366f1;
+}
+
+.input-group input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+}
+
+.input-group i {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus ~ i {
+  color: #6366f1;
+}
+
+/* Tailwind benzeri yardımcı sınıflar */
+.bg-primary {
+  background-color: #6366f1;
+}
+
+.bg-primary\/90 {
+  background-color: rgba(99, 102, 241, 0.9);
+}
+
+.text-primary {
+  color: #6366f1;
+}
+
+.rounded-button {
+  border-radius: 8px;
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 768px) {
+  .max-w-6xl > div {
+    flex-direction: column;
+  }
+  
+  .max-w-6xl > div > div {
+    width: 100%;
+  }
+  
+  .gradient-bg {
+    display: none;
+  }
+} 

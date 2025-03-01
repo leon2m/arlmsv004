@@ -1,0 +1,136 @@
+# Proje Gereksinimleri ve Yapılacaklar Listesi (PRD)
+
+## Öncelik Sırası
+1. Giriş Yap Modülü
+2. Superadmin Paneli
+3. Veritabanı Optimizasyonu
+4. API Performans İyileştirmeleri
+5. Güvenlik İyileştirmeleri
+6. Bağımlılık Yönetimi
+7. Otomatik Testler
+8. Loglama ve İzleme
+9. Ölçeklenebilirlik
+10. Veri Yedekleme ve Kurtarma
+11. Mikroservis Mimarisine Geçiş
+12. Performans Analizi
+13. Kullanıcı Yetkinliklerini Güncelleme İşlevselliği
+14. Dashboard Bileşenine Yeni Metrikler Ekle
+15. Kurs Detay Sayfasını İyileştir
+16. Yeni Bir Öğrenme Yolu Öneri Sistemi Entegre Et
+17. Kullanıcı Etkinliklerini Daha Detaylı Raporla
+18. Yetkinlik Setlerine Yeni Kategoriler Ekle
+19. Kullanıcılar İçin Kişiselleştirilmiş Öneriler Sun
+20. Yeni Bir Tema Özelleştirme Paneli Oluştur
+21. Kullanıcıların Yetkinlik Gelişimini Takip Eden Bir Grafik Ekle
+22. Yeni Bir Bildirim Sistemi Entegre Et
+
+## Yapılacaklar Listesi
+### 1. Giriş Yap Modülü
+- [ ] Kullanıcıların giriş yapabileceği bir modül oluştur.
+- [ ] Giriş yapma işlemlerini güvenli hale getir.
+
+
+### 2. Superadmin Paneli
+- [ ] Superadmin kullanıcıları için yönetimsel bir panel oluştur.
+- [ ] Panel üzerinden kullanıcıları ve sistem ayarlarını yönet.
+
+
+### 3. Veritabanı Optimizasyonu
+- [ ] Veritabanı sorgularını optimize et.
+- [ ] İndeksleme stratejilerini gözden geçir.
+
+
+### 4. API Performans İyileştirmeleri
+- [ ] API endpoint'lerinin performansını artır.
+- [ ] Caching mekanizmaları ekle.
+
+
+### 5. Güvenlik İyileştirmeleri
+- [ ] Kullanıcı verilerinin güvenliğini artır.
+- [ ] Yeni güvenlik protokolleri entegre et.
+
+
+### 6. Bağımlılık Yönetimi
+- [ ] Proje bağımlılıklarını güncelle.
+- [ ] Gereksiz bağımlılıkları kaldır.
+
+
+### 7. Otomatik Testler
+- [ ] Backend için otomatik testler oluştur.
+- [ ] Sürekli entegrasyon (CI) işlemlerini iyileştir.
+
+
+### 8. Loglama ve İzleme
+- [ ] Detaylı loglama sistemi kur.
+- [ ] Sistem performansını izleme araçları entegre et.
+
+
+### 9. Ölçeklenebilirlik
+- [ ] Sistemin ölçeklenebilirliğini artır.
+- [ ] Yük dengeleme stratejileri uygula.
+
+
+### 10. Veri Yedekleme ve Kurtarma
+- [ ] Veri yedekleme stratejilerini gözden geçir.
+- [ ] Hızlı kurtarma mekanizmaları oluştur.
+
+
+### 11. Mikroservis Mimarisine Geçiş
+- [ ] Monolitik yapıdan mikroservis mimarisine geçiş için planlama yap.
+- [ ] Servisleri bağımsız hale getir.
+
+
+### 12. Performans Analizi
+- [ ] Sistem performansını düzenli olarak analiz et.
+- [ ] Performans sorunlarını hızlıca tespit et ve çöz.
+
+
+### 13. Kullanıcı Yetkinliklerini Güncelleme İşlevselliği
+- [ ] Kullanıcıların yetkinlik puanlarını güncelleyebileceği bir arayüz oluştur.
+- [ ] Yetkinlik güncellemelerini veritabanına kaydet.
+
+
+### 14. Dashboard Bileşenine Yeni Metrikler Ekle
+- [ ] Kullanıcıların ilerlemesini gösteren yeni metrikler ekle.
+- [ ] Metriklerin gerçek zamanlı olarak güncellenmesini sağla.
+
+
+### 15. Kurs Detay Sayfasını İyileştir
+- [ ] Kurs detaylarını daha detaylı ve kullanıcı dostu hale getir.
+- [ ] Kurs materyallerine erişimi kolaylaştır.
+
+
+### 16. Yeni Bir Öğrenme Yolu Öneri Sistemi Entegre Et
+- [ ] Kullanıcıların hedeflerine göre öğrenme yolları öner.
+- [ ] Önerileri kişiselleştir.
+
+
+### 17. Kullanıcı Etkinliklerini Daha Detaylı Raporla
+- [ ] Kullanıcı etkinliklerini detaylı bir şekilde raporla.
+- [ ] Raporları PDF olarak indirilebilir hale getir.
+
+
+### 18. Yetkinlik Setlerine Yeni Kategoriler Ekle
+- [ ] Yeni yetkinlik kategorileri oluştur.
+- [ ] Kategorileri kullanıcıların profiline entegre et.
+
+
+### 19. Kullanıcılar İçin Kişiselleştirilmiş Öneriler Sun
+- [ ] Kullanıcıların ilgi alanlarına göre öneriler sun.
+- [ ] Önerileri dinamik olarak güncelle.
+
+
+### 20. Yeni Bir Tema Özelleştirme Paneli Oluştur
+- [ ] Kullanıcıların tema özelleştirmesine olanak tanı.
+- [ ] Temaları kaydedilebilir hale getir.
+
+
+### 21. Kullanıcıların Yetkinlik Gelişimini Takip Eden Bir Grafik Ekle
+- [ ] Yetkinlik gelişimini gösteren bir grafik ekle.
+- [ ] Grafiği interaktif hale getir.
+
+
+### 22. Yeni Bir Bildirim Sistemi Entegre Et
+- [ ] Kullanıcılar için yeni bir bildirim sistemi oluştur.
+- [ ] Bildirimleri kişiselleştir.
+
